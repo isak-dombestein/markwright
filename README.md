@@ -1,7 +1,7 @@
 # markwright
 
 [![License: MIT](https://badgen.net/github/license/isak-dombestein/markwright)](LICENSE)
-[![Last Commit](https://badgen.net/github/last-commit/isak-dombestein/markwright)](https://github.com/isak-dombestein/markwright/commits/main/)
+[![Last Commit](https://badgen.net/github/last-commit/isak-dombestein/markwright?v=1)](https://github.com/isak-dombestein/markwright/commits/main/)
 [![Markwright CI](https://github.com/isak-dombestein/markwright/actions/workflows/ci.yml/badge.svg)](https://github.com/isak-dombestein/markwright/actions/workflows/ci.yml)
 
 A simple node utility to convert Markdown (.md) files to printable A4-size PDF-files.
