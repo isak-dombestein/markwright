@@ -1,0 +1,30 @@
+{
+  "name": "@isak-dombestein/markwright",
+  "version": "1.0",
+  "type": "module",
+  "description": "A Node utility to convert Markdown to PDF. Supports syntax highlighting.",
+  "main": "markwright.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isak-dombestein/markwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isak-dombestein/markwright/issues"
+  },
+  "homepage": "https://github.com/isak-dombestein/markwright#readme",
+  "dependencies": {
+    "highlight.js": "^11.11.1",
+    "marked": "^16.1.2",
+    "marked-highlight": "^2.2.2",
+    "puppeteer": "^24.16.1"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5"
+  }
+}

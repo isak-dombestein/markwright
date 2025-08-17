@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Markwright HTML Generation should correctly convert Markdown to HTML with syntax highlighting 1`] = `
+"
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>PDF Output</title>
+                <style>
+                    body {
+                        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                        line-height: 1.6;
+                        padding: 40px;
+                    }
+                    
+                    code {
+                        font-family: "Fira Code", "Courier New", monospace;
+                    }
+
+                    blockquote {
+                        border-left: 4px solid #ccc;
+                        padding-left: 1em;
+                        color: #666;
+                    }
+
+                    
+pre code.hljs{display:block;overflow-x:auto;padding:1em}code.hljs{padding:3px 5px}.hljs{color:#c9d1d9;background:#0d1117}.hljs-doctag,.hljs-keyword,.hljs-meta .hljs-keyword,.hljs-template-tag,.hljs-template-variable,.hljs-type,.hljs-variable.language_{color:#ff7b72}.hljs-title,.hljs-title.class_,.hljs-title.class_.inherited__,.hljs-title.function_{color:#d2a8ff}.hljs-attr,.hljs-attribute,.hljs-literal,.hljs-meta,.hljs-number,.hljs-operator,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-variable{color:#79c0ff}.hljs-built_in,.hljs-code,.hljs-formula,.hljs-meta .hljs-string,.hljs-regexp,.hljs-string{color:#a5d6ff}.hljs-comment,.hljs-deletion,.hljs-quote,.hljs-section{color:#8b949e}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}.hljs-addition,.hljs-bullet,.hljs-link,.hljs-name,.hljs-selector-tag,.hljs-subst,.hljs-symbol{color:#7ee787}.hljs-string .hljs-char{color:#79c0ff}
+
+                </style>
+            </head>
+            <body>
+                <h1>TEST</h1>
+<p>This is a test file. </p>
+<p>The below code block should be formatted properly and have syntax highlighting.</p>
+<pre><code class="hljs language-javascript"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;This is a code block&#x27;</span>);
+<span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">someFunction</span> (<span class="hljs-params">data</span>) {
+    <span class="hljs-keyword">if</span>(!data) {
+        <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">error</span>(<span class="hljs-string">&#x27;Data is missing&#x27;</span>);
+    }
+
+    <span class="hljs-keyword">let</span> someData = data;
+
+    <span class="hljs-keyword">const</span> <span class="hljs-title function_">someThing</span> = (<span class="hljs-params"></span>) =&gt; {
+        <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">&#x27;SomeThing&#x27;</span>);
+    }
+
+    <span class="hljs-title function_">someThing</span>();
+}
+
+<span class="hljs-title function_">someFunction</span>();
+</code></pre>
+            </body>
+        </html>
+    "
+`;
