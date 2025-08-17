@@ -47,4 +47,4 @@ Markwright is built with the following libraries:
 Contributions are welcome! If you find a bug or have suggestions for extra functionality, feel free to open an issue or submit a pull request.
 
 ## LICENSE
-Markwright is licensed under the MIT License. See the [LICENSE](https://github.com/isak-dombestein/markwright/LICENSE.md) for details.
+Markwright is licensed under the MIT License. See the [LICENSE](LICENSE) for details.
