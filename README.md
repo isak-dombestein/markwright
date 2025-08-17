@@ -1,7 +1,7 @@
 # markwright
 
-[![license](https://badgen.net/github/license/isak-dombestein/markwright)](https://github.com/isak-dombestein/markwright/blob/main/LICENSE.md)
-[![lastCommit](https://badgen.net/github/last-commit/isak-dombestein/markwright)](https://github.com/isak-dombestein/markwright/commits/main/)
+[![License: MIT](https://badgen.net/github/license/isak-dombestein/markwright)](LICENSE)
+[![Last Commit](https://badgen.net/github/last-commit/isak-dombestein/markwright)](https://github.com/isak-dombestein/markwright/commits/main/)
 [![Markwright CI](https://github.com/isak-dombestein/markwright/actions/workflows/ci.yml/badge.svg)](https://github.com/isak-dombestein/markwright/actions/workflows/ci.yml)
 
 A simple node utility to convert Markdown (.md) files to printable A4-size PDF-files.
@@ -10,29 +10,29 @@ A simple node utility to convert Markdown (.md) files to printable A4-size PDF-f
 > **NOTE:** Requires Node.js to be installed
 
 1. Clone the repository;
-```bash
+```shell
 git clone https://github.com/isak-dombestein/markwright.git
 ```
 
 2. Navigate to the cloned directory
-```bash
+```shell
 cd markwright
 ```
 
 3. Install dependencies
-```bash
+```shell
 npm install
 ```
 
 ## Usage:
 To use, run the following from within the markwright folder;
 
-```bash
+```shell
 node markwright.js <input-file> <output-file>
 ```
 
 ### Example:
-```bash
+```shell
 node markwright.js README.md README.pdf
 ```
 
