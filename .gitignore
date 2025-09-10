@@ -135,6 +135,7 @@ consoleExports
 .idea
 src/potatoCRM/.astro/content.db
 .DS_Store
+WARP.md
 
 *.pdf
 courseNotes.md

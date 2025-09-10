@@ -96,7 +96,7 @@ async function mdToPdf(inputFile, outputFile) {
 const isCLI = process.argv[1] === fileURLToPath(import.meta.url);
 if (isCLI) {
     const inputFile = process.argv[2];
-    const outputFile = process.argv[3];
+    const outputFile = `${process.argv[3]}.pdf`;
 
     if (!inputFile || !outputFile) {
         console.error("Usage: node markwright.js <input-file> <output-file>");
