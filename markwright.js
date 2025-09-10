@@ -25,7 +25,93 @@ const marked = new Marked(
 
 // Copied from the githubDarkCSS theme page, too lazy to bother splitting this into proper spaced line syntax.
 const githubDarkCSS = `
-pre code.hljs{display:block;overflow-x:auto;padding:1em}code.hljs{padding:3px 5px}.hljs{color:#c9d1d9;background:#0d1117}.hljs-doctag,.hljs-keyword,.hljs-meta .hljs-keyword,.hljs-template-tag,.hljs-template-variable,.hljs-type,.hljs-variable.language_{color:#ff7b72}.hljs-title,.hljs-title.class_,.hljs-title.class_.inherited__,.hljs-title.function_{color:#d2a8ff}.hljs-attr,.hljs-attribute,.hljs-literal,.hljs-meta,.hljs-number,.hljs-operator,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-variable{color:#79c0ff}.hljs-built_in,.hljs-code,.hljs-formula,.hljs-meta .hljs-string,.hljs-regexp,.hljs-string{color:#a5d6ff}.hljs-comment,.hljs-deletion,.hljs-quote,.hljs-section{color:#8b949e}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}.hljs-addition,.hljs-bullet,.hljs-link,.hljs-name,.hljs-selector-tag,.hljs-subst,.hljs-symbol{color:#7ee787}.hljs-string .hljs-char{color:#79c0ff}
+    pre {
+        white-space: pre-wrap;
+        word-wrap: break-word
+    }
+
+    pre code.hljs {
+      display: block;
+      overflow-x: auto;
+      padding: 1em;
+    }
+
+    code.hljs {
+      padding: 3px 5px;
+    }
+
+    .hljs {
+      color: #c9d1d9;
+      background: #0d1117;
+    }
+
+    .hljs-doctag,
+    .hljs-keyword,
+    .hljs-meta .hljs-keyword,
+    .hljs-template-tag,
+    .hljs-template-variable,
+    .hljs-type,
+    .hljs-variable.language_ {
+      color: #ff7b72;
+    }
+
+    .hljs-title,
+    .hljs-title.class_,
+    .hljs-title.class_.inherited__,
+    .hljs-title.function_ {
+      color: #d2a8ff;
+    }
+
+    .hljs-attr,
+    .hljs-attribute,
+    .hljs-literal,
+    .hljs-meta,
+    .hljs-number,
+    .hljs-operator,
+    .hljs-selector-attr,
+    .hljs-selector-class,
+    .hljs-selector-id,
+    .hljs-variable {
+      color: #79c0ff;
+    }
+
+    .hljs-built_in,
+    .hljs-code,
+    .hljs-formula,
+    .hljs-meta .hljs-string,
+    .hljs-regexp,
+    .hljs-string {
+      color: #a5d6ff;
+    }
+
+    .hljs-comment,
+    .hljs-deletion,
+    .hljs-quote,
+    .hljs-section {
+      color: #8b949e;
+    }
+
+    .hljs-emphasis {
+      font-style: italic;
+    }
+
+    .hljs-strong {
+      font-weight: 700;
+    }
+
+    .hljs-addition,
+    .hljs-bullet,
+    .hljs-link,
+    .hljs-name,
+    .hljs-selector-tag,
+    .hljs-subst,
+    .hljs-symbol {
+      color: #7ee787;
+    }
+
+    .hljs-string .hljs-char {
+      color: #79c0ff;
+    }
 `;
 
 export async function genFullHtml(markdown) {
